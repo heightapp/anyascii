@@ -1,10 +1,10 @@
-import anyAscii from './any-ascii.js';
+const anyAscii = require("./any-ascii.js");
 
 function check(s, expected) {
-	const actual = anyAscii(s);
-	if (actual !== expected) {
-		throw new Error(actual + " !== " + expected);
-	}
+  const actual = anyAscii(s);
+  if (actual !== expected) {
+    throw new Error(actual + " !== " + expected);
+  }
 }
 
 check("", "");
