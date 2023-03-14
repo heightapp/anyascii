@@ -1,6 +1,6 @@
 {
   "name": "@heightapp/any-ascii",
-  "version": "0.3.3",
+  "version": "0.4.0",
   "description": "Unicode to ASCII transliteration",
   "homepage": "https://anyascii.com",
   "license": "ISC",
@@ -24,5 +24,6 @@
   },
   "scripts": {
     "test": "node ./test.js"
-  }
+  },
+  "main": "any-ascii.js"
 }
